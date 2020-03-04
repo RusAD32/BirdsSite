@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - One Page Wonder v5.0.7 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
@@ -37,14 +37,15 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 85, 0, 0.7);
 }
 
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 2.5rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
+  color: #ff1d2a;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
@@ -116,14 +117,14 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(4rem + 55px);
-    padding-bottom: 4rem;
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
