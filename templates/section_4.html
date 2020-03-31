@@ -1,0 +1,38 @@
+{% extends 'index.html'%}
+{% block title %}
+Секция 2
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="static/img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+          <p class="h2">Вам нужно самим очистить раны, подвязать крыло, наложить шину на ножку и все остальное. Если это делает волонтер или ветеринар пусть пользуется инструкцией.</p>
+            <p><a href="{% url 'main:section_4_1' %}">
+                  4.1. Открытая рана на конечностях и теле
+              </a></p>
+            <p><a href="{% url 'main:section_4_2' %}">
+                  4.2. Переломы открытые, закрытые и внутренние
+              </a></p>
+            <p><a href="{% url 'main:section_4_3' %}">
+                  4.3. Травма глаза
+              </a></p>
+            <p><a href="{% url 'main:section_4_4' %}">
+                  4.4. Черепно-мозговая травма
+              </a></p>
+            <p><a href="{% url 'main:section_4_5' %}">
+                  4.5. Поломанное оперение
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

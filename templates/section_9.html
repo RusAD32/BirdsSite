@@ -1,0 +1,35 @@
+{% extends 'index.html'%}
+{% block title %}
+Секция 2
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="static/img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+          <p class="h2"> Птицы массовых видов не нужны рц. Если это редкая птица или летный птенец напротив, обращайтесь сразу к ним. А волонтеры и так в аду.</p>
+            <p><a href="{% url 'main:section_9_1' %}">
+                  9.1.  У меня массовая, как мне быть?
+              </a></p>
+            <p><a href="{% url 'main:section_9_2' %}">
+                  9.2. У меня редкая птица, как связаться с волонтерами?
+              </a></p>
+            <p><a href="{% url 'main:section_9_3' %}">
+                  9.2. У меня птенец!
+              </a></p>
+            <p><a href="{% url 'main:section_9_4' %}">
+                  9.3. Я баран, идите нахуй.
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'index.html'%}
+{% block title %}
+Секция 2
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="static/img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+          <p class="h2">надо понимать, что такое нелетность и импринт. Нелетная птица может жить очень хорошо. Надо только давать ей необходимый рацион и рацион и не подвергать ее жизнь опасности.</p>
+            <p><a href="{% url 'main:section_10_1' %}">
+                  10.1. Определение нелетности и импринта
+              </a></p>
+            <p><a href="{% url 'main:section_10_2' %}">
+                  10.2. Как сделать вольер в квартире и частном доме
+              </a></p>
+            <p><a href="{% url 'main:section_10_3' %}">
+                  10.3. Как правильно кормить птицу
+              </a></p>
+            <p><a href="{% url 'main:section_10_4' %}">
+                  10.4. Как следить за ее здоровьем, предупреждай болезни и у кого обследоваться?
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

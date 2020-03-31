@@ -1,0 +1,32 @@
+{% extends 'index.html'%}
+{% block title %}
+Секция 2
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="static/img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+          <p class="h2">Лечение всегда необходимо. Она умрет без него. Самое худшее просто тупо ее держать!</p>
+            <p><a href="{% url 'main:section_7_1' %}">
+                  7.1. Как найти и обработать раны и зафиксировать переломы?
+              </a></p>
+            <p><a href="{% url 'main:section_7_2' %}">
+                  7.2. Все наружные лекарства и средства
+              </a></p>
+            <p><a href="{% url 'main:section_7_3' %}">
+                  7.3. диагностика и лечение болезней
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

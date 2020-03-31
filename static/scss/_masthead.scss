@@ -3,7 +3,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, $secondary 0%, $primary 100%);
+  background-image: url("../background.jfif");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -13,9 +13,12 @@ header.masthead {
     position: relative;
     .masthead-heading {
       font-size: 4rem;
+      text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+      color: #b95ec7;
     }
     .masthead-subheading {
       font-size: 2rem;
+      text-shadow: black 0 0 5px;
     }
   }
   .bg-circle {
@@ -56,7 +59,7 @@ header.masthead {
     padding-bottom: 10rem;
     .masthead-content {
       .masthead-heading {
-        font-size: 4rem;
+        font-size: 5rem;
       }
       .masthead-subheading {
         font-size: 3rem;

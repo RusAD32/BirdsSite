@@ -1,0 +1,38 @@
+{% extends 'index.html'%}
+{% block title %}
+Секция 2
+{% endblock %}
+
+{% block content %}
+<section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img id="picture" class="img-fluid rounded-circle" src="static/img/02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+          <p class="h2">Не натворите дел. Точно поймите что за вид и какой возраст. Самое главное чтобы он улетел!</p>
+            <p onmouseenter="change_pic('static/5kR0wGDUuy4.jpg')"><a href="{% url 'main:section_2_1' %}">
+                  2.1. Это, кажется, стрижик
+              </a></p>
+            <p><a href="{% url 'main:section_2_2' %}">
+                  2.2. Определитель птиц
+              </a></p>
+            <p onmouseenter="change_pic('static/pigeons_corvids/citypigeon18.jpg')"><a href="{% url 'main:section_2_3' %}">
+                  2.2. Это птица массового вида (голубь, врановые, воробьи, водоплавь)
+              </a></p>
+            <p onmouseenter="change_pic('static/carnivores/krechet.jpg')"><a href="{% url 'main:section_2_4' %}">
+                  2.3. Это хищник, сова, редкий крупный вид птиц
+              </a></p>
+            <p><a href="{% url 'main:section_2_5' %}">
+                  2.4. Это какая-то непонятная мелкая дрянь...
+              </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
