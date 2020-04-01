@@ -30,7 +30,7 @@
         <div class="navbar-brand h1">Дикая птица</div>
       <a class="navbar-text" href="{% url "main:index" %}">Главная</a>
       <a class="navbar-text" href="{% url "main:strizhi" %}">Стрижи</a>
-      <a class="navbar-text" href="#">Определитель птиц</a>
+      <a class="navbar-text" href="{% url "main:opredelitel" %}">Определитель птиц</a>
       <a class="navbar-text" href="{% url "main:contancts" %}">Контакты</a>
     </div>
   </nav>
@@ -39,7 +39,7 @@
     <div class="masthead-content">
       <div class="container">
           {% block header %}
-        <h2 class="masthead-heading mb-0">Дикая Птица</h2>
+        <h2 class="masthead-heading mb-0">WILD BIRD</h2>
           {% endblock %}
       </div>
     </div>
